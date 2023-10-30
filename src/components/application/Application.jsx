@@ -8,14 +8,14 @@ const Application = () => {
       <form>
         <div>
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" />
+          <input type="text" id="name" placeholder="Full name" />
         </div>
         <div>
           <label htmlFor="bio">Bio</label>
           <textarea id="bio" name="bio" />
         </div>
         <div>
-          <label htmlFor="job-location">Job Location</label>
+          <label htmlFor="job-location">Name</label>
           <select id="job-location">
             <option value="">Select a country</option>
             <option value="US">United States</option>
