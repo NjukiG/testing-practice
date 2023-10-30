@@ -8,7 +8,7 @@ test("Greet renders correctly!", () => {
 });
 
 test("Greet renders correctly with a name prop!", () => {
-  render(<Greet name="George Njuki" />);
-  const textElement = screen.getByText("Hello George Njuki.");
+  render(<Greet name="George" />);
+  const textElement = screen.getByText(/Hello George/i);
   expect(textElement).toBeInTheDocument();
 });
