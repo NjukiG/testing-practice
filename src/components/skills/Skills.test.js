@@ -14,7 +14,8 @@ describe("Skills", () => {
   test("Render list of skills", () => {
     render(<Skills skills={skills} />);
 
-    const listItemElement = screen.getAllByRole("listitem");
-    expect(listItemElement).toHaveLength(4);
+    
+    const listItemElements = screen.getAllByRole("listitem");
+    expect(listItemElements).toHaveLength(skills.length);
   });
 });
