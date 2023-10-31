@@ -13,6 +13,7 @@ const Application = () => {
         width="500px"
         height="350px"
       />
+      <div data-testid='custom-element'>Custom HTML element.</div>
       <form>
         <div>
           <label htmlFor="name">Name</label>
