@@ -6,6 +6,13 @@ const Application = () => {
       <h1>Job application form.</h1>
       <h2>Section 1.</h2>
       <p>All fields are mandatory to fill.</p>
+      <span title="close">X</span>
+      <img
+        src="https://cdn.nba.com/manage/2023/05/wilson-ball-iso-general-view-scaled.jpg"
+        alt="Wilson Basketball"
+        width="500px"
+        height="350px"
+      />
       <form>
         <div>
           <label htmlFor="name">Name</label>

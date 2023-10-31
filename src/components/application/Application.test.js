@@ -18,6 +18,12 @@ describe("Application", () => {
     );
     expect(paragraphElement).toBeInTheDocument();
 
+    const closeElement = screen.getByTitle("close");
+    expect(closeElement).toBeInTheDocument();
+
+    const imageElement = screen.getByAltText("Wilson Basketball");
+    expect(imageElement).toBeInTheDocument();
+
     const nameElement = screen.getByRole("textbox", { name: "Name" });
     expect(nameElement).toBeInTheDocument();
 
