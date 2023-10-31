@@ -10,8 +10,8 @@ const Application = () => {
       <img
         src="https://cdn.nba.com/manage/2023/05/wilson-ball-iso-general-view-scaled.jpg"
         alt="Wilson Basketball"
-        width="500px"
-        height="350px"
+        width="150px"
+        height="150px"
       />
       <div data-testid='custom-element'>Custom HTML element.</div>
       <form>
