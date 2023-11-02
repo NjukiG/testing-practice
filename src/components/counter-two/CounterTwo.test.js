@@ -2,6 +2,8 @@ import { render, screen } from "@testing-library/react";
 import { CounterTwo } from "./CounterTwo";
 import userEvent from "@testing-library/user-event";
 
+
+
 describe("Counter Two", () => {
   test("Renders correctly", () => {
     render(<CounterTwo count={0} />);
